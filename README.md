@@ -3,7 +3,7 @@ The idea behind this homepage is to have the appearance of a terminal using the 
 
 ![plot](/terminal-homepage.png)
  
-### 🚨 This branch is an alternative that consolidates everything into a single file. Please keep that in mind. 🚨
+🚨 This branch is an alternative that consolidates everything into a single file. Please keep that in mind. 🚨
 
 ## How to Use
  
