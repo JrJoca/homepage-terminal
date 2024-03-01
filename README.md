@@ -1,15 +1,14 @@
 # Terminal Homepage
-
 The idea behind this homepage is to have the appearance of a terminal using the   [Dracula Theme](https://github.com/dracula/dracula-theme)
 
 ![plot](/terminal-homepage.png)
  
-## This branch is an alternative that consolidates everything into a single file. Please keep that in mind.
+### 🚨 This branch is an alternative that consolidates everything into a single file. Please keep that in mind. 🚨
 
 ## How to Use
  
 1. Clone this project using `git@github.com:eliveltonsales/homepage-terminal.git`.
-2. Add your links to the 'links.json' file.
+2. Add your links to the 'links' object.
 	1. group: Title of the link group.
 	2. label: Visible link text on the homepage.
 	3. url: The link's destination.
