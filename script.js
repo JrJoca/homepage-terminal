@@ -4,7 +4,7 @@ async function renderLinks() {
     const colors = ['cyan', 'green', 'orange', 'pink', 'purple', 'red', 'yellow'];
 
     try {
-        const response = await fetch('../links.json');
+        const response = await fetch('./links.json');
         const data = await response.json();
 
         data.links.forEach(item => {
@@ -27,6 +27,7 @@ async function renderLinks() {
                 linkItem.textContent = link.label;
                 linkItem.href = link.url;
 
+                linkItem.setAttribute('target', '_blank');
                 linkItem.classList.add('link');
 
                 linkWrapper.classList.add('link');
@@ -59,9 +60,9 @@ function updateClock() {
 }
 
 function updateTemp() {
-    const apiKey = 'your api key';
-    const lat = 'your latitude';
-    const lon = 'your longitude'
+    const apiKey = 'c01afd78109dcd9ce79847603cc00e6c';
+    const lat = '-23.5489';
+    const lon = '-46.6388'
 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 

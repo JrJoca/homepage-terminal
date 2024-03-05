@@ -1,152 +1,84 @@
 {
     "links": [
         {
-            "group": "links/",
+            "group": "most-used/",
             "urls": [
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Gmail",
+                    "url": "https://mail.google.com/mail/u/0/#inbox"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Lo-Fi",
+                    "url": "https://www.lofi.cafe/"
                 }
             ]
         },
         {
-            "group": "links/",
+            "group": "cursos/",
             "urls": [
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "B7 Web",
+                    "url": "https://www.ead.senac.br/login-unico-ead/login"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Udemy",
+                    "url": "https://cognizant.udemy.com/organization/home/"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Senac EAD",
+                    "url": "Senac EAD"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Fabio Lima",
+                    "url": "https://hotmart.com/pt-br/club/fabio-lima/products/1379587"
                 }
             ]
         },
         {
-            "group": "links/",
+            "group": "entretenimento/",
             "urls": [
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Youtube",
+                    "url": "https://www.youtube.com/"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Twitter",
+                    "url": "https://twitter.com/home"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "TwitchTV",
+                    "url": "https://www.twitch.tv/"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Facebook",
+                    "url": "https://www.facebook.com/"
+                },
+                {
+                    "label": "Instagram",
+                    "url": "https://www.instagram.com/"
+                },
+                {
+                    "label": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed"
                 }
             ]
         },
         {
-            "group": "links/",
+            "group": "games/",
             "urls": [
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "TFTactics",
+                    "url": "https://tftactics.gg/"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Duel Links Meta",
+                    "url": "https://www.duellinksmeta.com/"
                 },
                 {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
+                    "label": "Duel Links - Brasil",
+                    "url": "https://duellinksbrasil.com.br/"
                 }
             ]
-        },
-        {
-            "group": "links/",
-            "urls": [
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                }
-            ]
-        },
-        {
-            "group": "links/",
-            "urls": [
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                }
-            ]
-        },
-        {
-            "group": "links/",
-            "urls": [
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                },
-                {
-                    "label": "link",
-                    "url": "#"
-                }
-            ]
-        }        
+        }       
     ]
-
 }
