@@ -15,7 +15,7 @@
         },
         {
             "group": "cursos/",
-            "urls": [
+            "urls": [ 
                 {
                     "label": "B7 Web",
                     "url": "https://www.ead.senac.br/login-unico-ead/login"
@@ -26,7 +26,7 @@
                 },
                 {
                     "label": "Senac EAD",
-                    "url": "Senac EAD"
+                    "url": "https://www.ead.senac.br/login-unico-ead/login"
                 },
                 {
                     "label": "Fabio Lima",
@@ -77,6 +77,10 @@
                 {
                     "label": "Duel Links - Brasil",
                     "url": "https://duellinksbrasil.com.br/"
+                },
+                {
+                    "label": "Wallpaper",
+                    "url": "https://wall.alphacoders.com/"
                 }
             ]
         }       

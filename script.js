@@ -84,3 +84,63 @@ function start() {
     updateTemp();
 }
 start();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const autocompleteInput = document.getElementById("autocomplete");
+    const datalist = document.getElementById("commands");
+    const labelToUrl = {};
+    let options = [];
+
+    function fetchAndStoreOptions() {
+        fetch('links.json')
+            .then(response => response.json())
+            .then(data => {
+                data.links.forEach(group => {
+                    group.urls.forEach(item => {
+                        if (item.label) {
+                            options.push(item.label);
+                            labelToUrl[item.label] = item.url;
+                        }
+                    });
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    }
+
+    function filterAndPopulate(value) {
+        datalist.innerHTML = '';
+        const filteredOptions = options.filter(option => option.toLowerCase().startsWith(value.toLowerCase()));
+        filteredOptions.forEach(option => {
+            const optionElement = document.createElement("option");
+            optionElement.value = option;
+            datalist.appendChild(optionElement);
+        });
+    }
+
+    autocompleteInput.addEventListener("input", function () {
+        const value = this.value;
+        if (value.length > 0) {
+            filterAndPopulate(value);
+        } else {
+            datalist.innerHTML = '';
+        }
+    });
+
+    autocompleteInput.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            const value = this.value;
+            if (labelToUrl[value]) {
+                window.open(labelToUrl[value], '_blank');
+            }
+        }
+    });
+
+    autocompleteInput.addEventListener("change", function () {
+        const value = this.value;
+        if (labelToUrl[value]) {
+            window.open(labelToUrl[value], '_blank');
+        }
+    });
+
+    fetchAndStoreOptions();
+});

@@ -38,6 +38,21 @@ body {
     box-shadow: 0px 0px 10px 3px #16182050;
 }
 
+#autocomplete{
+    background-color: #282A36;
+    border: none;
+    color: #F8F8F2;
+
+    box-shadow: none;
+    outline: 0;
+
+    caret-color: #FFF;
+}
+
+input :focus {
+    outline: 0;
+}
+
 
 .white {
     color: #F8F8F2;
