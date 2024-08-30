@@ -122,157 +122,95 @@
     </div>
 </body>
 <script>
-    const links = {
-        "links": [
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            },
-            {
-                "group": "links/",
-                "urls": [
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    },
-                    {
-                        "label": "link",
-                        "url": "#"
-                    }
-                ]
-            }
-        ]
-    }
+    const links = 
+{
+    "links": [
+        {
+            "group": "most-used/",
+            "urls": [
+                {
+                    "label": "Gmail",
+                    "url": "https://mail.google.com/mail/u/0/#inbox"
+                },
+                {
+                    "label": "Lo-Fi",
+                    "url": "https://www.lofi.cafe/"
+                }
+            ]
+        },
+        {
+            "group": "cursos/",
+            "urls": [ 
+                {
+                    "label": "B7 Web",
+                    "url": "https://www.ead.senac.br/login-unico-ead/login"
+                },
+                {
+                    "label": "Udemy",
+                    "url": "https://cognizant.udemy.com/organization/home/"
+                },
+                {
+                    "label": "Senac EAD",
+                    "url": "https://www.ead.senac.br/login-unico-ead/login"
+                },
+                {
+                    "label": "Fabio Lima",
+                    "url": "https://hotmart.com/pt-br/club/fabio-lima/products/1379587"
+                }
+            ]
+        },
+        {
+            "group": "entretenimento/",
+            "urls": [
+                {
+                    "label": "Youtube",
+                    "url": "https://www.youtube.com/"
+                },
+                {
+                    "label": "Twitter",
+                    "url": "https://twitter.com/home"
+                },
+                {
+                    "label": "TwitchTV",
+                    "url": "https://www.twitch.tv/"
+                },
+                {
+                    "label": "Facebook",
+                    "url": "https://www.facebook.com/"
+                },
+                {
+                    "label": "Instagram",
+                    "url": "https://www.instagram.com/"
+                },
+                {
+                    "label": "LinkedIn",
+                    "url": "https://www.linkedin.com/feed"
+                }
+            ]
+        },
+        {
+            "group": "games/",
+            "urls": [
+                {
+                    "label": "TFTactics",
+                    "url": "https://tftactics.gg/"
+                },
+                {
+                    "label": "Duel Links Meta",
+                    "url": "https://www.duellinksmeta.com/"
+                },
+                {
+                    "label": "Duel Links - Brasil",
+                    "url": "https://duellinksbrasil.com.br/"
+                },
+                {
+                    "label": "Wallpaper",
+                    "url": "https://wall.alphacoders.com/"
+                }
+            ]
+        }       
+    ]
+}
 
     async function renderLinks() {
         const core = document.querySelector("#core");
